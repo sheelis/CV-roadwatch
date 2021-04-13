@@ -1,22 +1,23 @@
-# Licence Plate Reader with OpenCV and Python
+# Computer Vision Road Watcher with OpenCV and Python
 
-The goal is to use any camera stream to extract objects from (such as licence plates, faces, cars, etc)
+The goal is to use any camera stream to extract objects (such as licence plates, faces, cars, etc) from live streams of commonly available devices.
 
 ## Installation
 
-1. Download and save the server script ```LPR-server.py``` on your hard drive of a connected computer (which will act as the camera server)
+1. Download and save the server script ```CV-roadwatch.py``` on your hard drive of a connected computer (which will act as the camera server)
 2. Power on and connect your cameras:
    - [x] USB camera or built-in webcam
    - [ ] Android phone with a streaming app
    - [ ] IP camera
    - [ ] webcam with http interface?
-3. Open ```LPR-server.py``` in text editor and edit your camera settings (ip and usb addresses)
-4. Run ```LPR-server.py```
+3. Open ```CV-roadwatch.py``` in text editor and edit your camera settings (ip and usb addresses)
+4. Run ```CV-roadwatch.py```
 
 Tips
 
 - You might want to set static IP addresses for all cameras and the server on your local network so that you don't need to change the settings again.
 - Currently networked cameras do not work reliably. 
+- add the server script to start up with your computer
 
 ## Usage and data flow
 
